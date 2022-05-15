@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav-secundario{
+    width: 500px;
+}
+#github{
+    height: 80px;
+    width: 80px;
+    margin-left: 1180px;
+    margin-top: -100px;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 90px;
+}
+
+#pokeball{
+    height: 25%;
+    width: 25%;
+    margin-left: 450px;
+}
+
+@media screen and (max-width: 1020px){
+    #github{
+        margin-left: 900px;
+    }
+    #pokeball{
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #pokeball{
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #github{
+        margin-left: 800px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #github{
+        margin-left: 700px;
+    }
+    #pokeball{
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #github{
+        margin-left: 500px;
+    }
+    h1{
+        margin-top: 20px;
+    }
+    #pokeball{
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #github{
+        margin-left: 400px;
+    }
+    h1{
+        font-size: 70px;
+        margin: 20px;
+    }
+    #pokeball{
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #github{
+        margin-left: 300px;
+    }
+    h1{
+        font-size: 70px;
+        margin-top: 30px;
+    }
+    #pokeball{
+        margin-left: 150px;
+    }
+}

@@ -1,0 +1,51 @@
+.img-menu{
+    margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.img-menu img{
+    vertical-align: top;
+    will-change: 40px;
+    cursor: pointer;
+}
+
+.cont-menu{
+    background-color: black;
+    box-shadow: 2px 0px 5px 2px gray;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+}
+
+.active {
+    transform: translate(-600px);
+}
+
+.opacity{
+    color: black;
+    transition: all .5s ease;
+}
+
+.cont-menu ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+.cont-menu ul li{
+    color: black;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li{
+    background-color: black;
+    color: white;
+    
+}

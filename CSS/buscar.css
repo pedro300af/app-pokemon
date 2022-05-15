@@ -1,0 +1,141 @@
+.nav{
+    width: 50px;
+}
+
+.ingresar-datos{
+    margin-left: 500px;
+    font-size: 20px;
+    display: block;
+    text-transform: capitalize;
+    margin-top: -90px;
+}
+
+#ingresa-pokemon{
+    margin-left: 550px;
+    display: block;
+    margin-top: 10px;
+}
+
+#buscar{
+    font-size: 15px;
+    margin-left: 580px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: blue;
+    border-color: blue;
+}
+
+#img-pokemon{
+    width: 300px;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.info{
+    margin-top: 20px;
+    margin-left: 550px;
+}
+
+@media screen and (max-width: 1000px){
+    .ingresar-datos{
+        margin-top: auto;
+        margin-left: 400px;
+    }
+    #ingresa-pokemon{
+        margin-left: 450px;
+    }
+    #buscar{
+        margin-left: 480px;
+    }
+    #github{
+        margin-left: 900px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    #github{
+        margin-left: 800px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #github{
+        margin-left: 700px;
+    }
+    .ingresar-datos{
+        margin-left: 300px;
+    }
+    #ingresa-pokemon{
+        margin-left: 350px;
+    }
+    #buscar{
+        margin-left: 380px;
+    }
+    #img-pokemon{
+        margin-left: 350px;
+        margin-top: 20px;
+    }
+    .info{
+        margin-top: 20px;
+        margin-left: 400px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #github{
+        margin-left: 500px;
+    }
+    .ingresar-datos{
+        margin-left: 200px;
+    }
+
+    #ingresa-pokemon{
+        margin-left: 250px;
+    }
+    #buscar{
+        margin-left: 280px;
+    }
+    #img-pokemon{
+        margin-left: 250px;
+        margin-top: 20px;
+    }
+    .info{
+        margin-top: 20px;
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #github{
+        margin-left: 400px;
+    }
+    .ingresar-datos{
+        margin-top: 100px;
+        margin-left: 10px;
+        display: inline;
+    }
+    #ingresa-pokemon{
+        margin-left: 10px;
+        display: inline;
+    }
+    #buscar{
+        margin-left: 30px;
+        display: inline;
+    }
+    #img-pokemon{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .info{
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #github{
+        margin-left: 300px;
+    }
+}

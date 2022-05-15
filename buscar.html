@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="CSS/buscar.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="nav-secundario">
+                <div class="img-menu">
+                    <img src="data/img/open-menu.png" alt="menu" id="img-menu">
+                </div>
+                <div class="cont-menu active" id="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="buscar.html">Buscar</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="https://github.com/pedro300af"><img src="data/img/github-icon-1.svg" alt="github" id="github"></a>
+        </nav>
+    </header>
+    <label for="ingresa-pokemon" class="ingresar-datos">Ingresa el nombre del pokemon</label>
+    <input type="text" name="ingresa-pokemon" id="ingresa-pokemon">
+    <button type="submit" id="buscar" onclick="buscar()">Buscar</button>
+
+    <section id="pokemon">
+        
+    </section>
+
+</body>
+<script src="JS/index.js"></script>
+<script src="JS/menu.js"></script>
+
+</html>
